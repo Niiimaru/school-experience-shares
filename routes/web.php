@@ -19,10 +19,6 @@ Route::get('/', function () {
 
 Route::get('/document', function () {
     return view('document.index');
-question-4
 });
 
 Route::post('/document/send', 'DocumentController@send')->name('document.send');
-
-});
- main

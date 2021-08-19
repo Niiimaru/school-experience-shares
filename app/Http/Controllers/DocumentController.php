@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Customor;
+use App\Customer;
 
 class DocumentController extends Controller
 {
     //(
     public function send(Request $request)
     {
-        $customor = new Customor();
+        $customor = new Customer();
         $customor->name = $request->last . $request->first;
         $customor->email = $request->email;
         $customor->tel = $request->tel;
