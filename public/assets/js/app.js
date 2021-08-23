@@ -1,7 +1,7 @@
 const pageTop = $('#totoBtn');
 const speed = 500;
 pageTop.on('click', () => {
-    $('body,html').animate({
+    $('body, html').animate({
         scrollTop:0
     }, speed);
 });
