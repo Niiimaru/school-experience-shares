@@ -45,8 +45,11 @@
             <dl class="c-form__body">
             <dt class="c-form__body__title">お名前<span class="c-form__required">必須</span></dt>
             <dd class="c-form__body__control--2">
-                <input type="text" placeholder="山田">
-                <input type="text" placeholder="太郎">
+                <input type="text" placeholder="山田" name="last">
+                <input type="text" placeholder="太郎" name="first">
+                @error('last');
+                    <p style="font-size: 15px" >{{ $message }}</p>
+                @enderror
                 <p class="c-form__alert"><small>必須項目に入力をしてください。</small></p>
             </dd>
             <dt class="c-form__body__title">メールアドレス<span class="c-form__required">必須</span></dt>
