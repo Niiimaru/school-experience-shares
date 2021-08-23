@@ -10,6 +10,7 @@ use App\Http\Requests\DocumentRequest;
 class DocumentController extends Controller
 {
     //(
+
     public function send(DocumentRequest $request)
 
     {

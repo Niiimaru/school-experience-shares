@@ -51,7 +51,7 @@
                 @error('last');
                     <p style="font-size: 15px" >{{ $message }}</p>
                 @enderror
-                <p class="c-form__alert"><small>必須項目に入力をしてください。</small></p>
+
             </dd>
             <dt class="c-form__body__title">メールアドレス<span class="c-form__required">必須</span></dt>
             <dd class="c-form__body__control">
